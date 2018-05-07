@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Cagliostro-Regular';
+    src: url('Cagliostro-Regular.ttf');
+
+}
+body{
+    font-family:'Cagliostro-Regular',Arial, sans-serif;
+    margin: 0em;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    background-color: orangered;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+button
+{
+    background-color: orange;
+    border-radius: 0.5em;
+    border: none;
+    height: 4em;
+}
+.menu1
+{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+.nav1
+{
+    margin-right: 10px;
+    color: white;
+}
+header
+{
+    background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("img/image-499666622.jpg");
+    color: white;
+    height: 500px;
+}
+.intro
+{
+    padding-top: 100px;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+.titre {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.trait{
+    border-top: solid darkgrey 2px;
+    width: 70%;
+}
+.first {
+    display:flex;
+}
+
+.articles{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width:75px;
+    height:75px;
+    margin-right:20px;
+}
+h4{
+    margin-top: 0;
+}
+#photos ul
+{
+    list-style: none;
+}
+.menu2
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: -2em;
+}
+.menu2 a
+{
+    color: gray;
+    overflow: hidden;
+}
+.images
+{
+    display: flex;
+    justify-content: center;
+
+}
+.picture
+{
+    width: 300px;
+}
+#orange
+{
+    height:400px;
+    background-color: orange;
+    color: white;
+    padding-top: 150px;
+}
+.membre
+{
+    box-sizing: border-box;
+}
+.team {
+    display:flex;
+
+}
+.member img
+{
+    width: 100%;
+}
+.member
+{
+    margin-right: 10px;
+}
+.description
+{
+    border-top: grey solid 2px;
+}
+#content
+{
+    background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("img/image-195625538.jpg");
+    height: 400px;
+    padding-top: 100px;
+    color: white;
+}
+#contact
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fab
+{
+    font-size: 3em;
+    color: darkgray;
+}
+span
+{
+    color: orangered;
+}
+label
+{
+    color: grey;
+}
+input, textarea
+{
+    background: lightgray;
+    border: none;
+    border-radius: 0.5em;
+}
+#bottom
+{
+    background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("img/image-876206940.jpg");
+    height: 400px;
+    color: white;
+}
+.endpage
+{
+    padding-top: 100px;
+}
+#bottom_ban
+{
+    margin-top: -1em;
+    background-color: darkgray;
+    color: white;
+    height: 3em;
+}
+
+
+
